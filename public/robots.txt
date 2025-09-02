@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Block access to development files
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.vscode/
+Disallow: /dist/
+Disallow: /build/
+
+# Block access to config files
+Disallow: *.json
+Disallow: *.config.js
+Disallow: *.config.ts
+
+# Allow important assets
+Allow: /src/images/
+Allow: /public/
+
+# Sitemap location
+Sitemap: https://fundzama.co.za/sitemap.xml
+
+# Crawl delay (optional - be respectful to search engines)
+Crawl-delay: 1
