@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
-import { useEffect } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
@@ -14,19 +13,14 @@ import Team from './pages/Team';
 import Contact from './pages/Contact';
 import Services from './pages/Services';
 import FabricationGallery from './pages/FabricationGallery';
-import { preloadCriticalResources, initWebVitalsMonitoring } from './utils/performance';
+import PerformanceMonitor from './components/PerformanceMonitor';
 
 function App() {
-  useEffect(() => {
-    // Initialise performance optimisations
-    preloadCriticalResources();
-    initWebVitalsMonitoring();
-  }, []);
-
   return (
     <HelmetProvider>
       <Router>
         <div className="min-h-screen bg-slate-50">
+          <PerformanceMonitor />
           <ScrollToTop />
           <Header />
           <main>

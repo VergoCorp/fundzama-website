@@ -22,6 +22,16 @@
   }
 }
 
+/* Smooth infinite scroll animation */
+@keyframes infinite-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 @keyframes scroll-right {
   0% {
     transform: translateX(-50%);
@@ -41,7 +51,11 @@
 }
 
 .animate-scroll-left {
-  animation: scroll-left 20s linear infinite;
+  animation: scroll-left 15s linear infinite;
+}
+
+.animate-infinite-scroll {
+  animation: infinite-scroll 12s linear infinite;
 }
 
 .animate-scroll-right {
@@ -54,7 +68,8 @@
 
 /* Pause animations on hover */
 .animate-scroll-left:hover,
-.animate-scroll-right:hover {
+.animate-scroll-right:hover,
+.animate-infinite-scroll:hover {
   animation-play-state: paused;
 }
 

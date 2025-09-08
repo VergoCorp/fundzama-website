@@ -15,11 +15,11 @@ Disallow: *.config.js
 Disallow: *.config.ts
 
 # Allow important assets
-Allow: /src/images/
+Allow: /images/
 Allow: /public/
 
 # Sitemap location
-Sitemap: https://fundzama.co.za/sitemap.xml
+Sitemap: https://fundzama.netlify.app/sitemap.xml
 
 # Crawl delay (optional - be respectful to search engines)
 Crawl-delay: 1

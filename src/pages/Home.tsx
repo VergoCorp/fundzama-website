@@ -103,7 +103,7 @@ const Home = () => {
           </ScrollAnimation>
           
           <div className="relative overflow-hidden">
-            <div className="flex space-x-6 animate-scroll-left">
+            <div className="flex space-x-6 animate-infinite-scroll">
               {[
                 {
                   name: 'Battery Tanks',
@@ -215,6 +215,69 @@ const Home = () => {
                 }
               ].map((product, index) => (
                 <div key={`duplicate-${index}`} className="flex-shrink-0 w-64 bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group">
+                  <div className="h-40 overflow-hidden">
+                    <img 
+                      src={product.image} 
+                      alt={product.name}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-bold text-slate-900 mb-2 text-center">{product.name}</h3>
+                    <p className="text-sm text-slate-600 text-center leading-relaxed">{product.description}</p>
+                  </div>
+                </div>
+              ))}
+              
+              {/* Third set for ultra-smooth infinite loop */}
+              {[
+                {
+                  name: 'Battery Tanks',
+                  image: '/images/tanks7.jpg',
+                  description: 'Electric forklift battery containment systems'
+                },
+                {
+                  name: 'Industrial Equipment',
+                  image: '/images/img_18_1753212850792.jpg',
+                  description: 'Heavy-duty machinery and fabrication'
+                },
+                {
+                  name: 'Material Handling',
+                  image: '/images/img_14_1753212778101.jpg',
+                  description: 'Pallet jacks and lifting equipment'
+                },
+                {
+                  name: 'Safety Infrastructure',
+                  image: '/images/img_15_1753212782640.jpg',
+                  description: 'Stairs, railings and safety platforms'
+                },
+                {
+                  name: 'Custom Fabrication',
+                  image: '/images/img_4_1753212532992.jpg',
+                  description: 'Bespoke metal fabrication solutions'
+                },
+                {
+                  name: 'Outdoor Furniture',
+                  image: '/images/img_5_1753212569040.jpg',
+                  description: 'Weather-resistant commercial furniture'
+                },
+                {
+                  name: 'Washbay Systems',
+                  image: '/images/img_6_1753212575500.jpg',
+                  description: 'Battery maintenance and cleaning systems'
+                },
+                {
+                  name: 'Industrial Stairs',
+                  image: '/images/img_8_1753212630651.jpg',
+                  description: 'Safety-compliant access solutions'
+                },
+                {
+                  name: 'Custom Solutions',
+                  image: '/images/img_9_1753212644089.jpg',
+                  description: 'Tailored fabrication services'
+                }
+              ].map((product, index) => (
+                <div key={`third-${index}`} className="flex-shrink-0 w-64 bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group">
                   <div className="h-40 overflow-hidden">
                     <img 
                       src={product.image} 
@@ -787,32 +850,9 @@ const Home = () => {
             </div>
           </ScrollAnimation>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-            {/* Sand Blasting Service */}
-            <ScrollAnimation delay={100}>
-              <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group">
-                <div className="h-48 overflow-hidden">
-                  <img 
-                    src="/images/IMG_8802.JPG" 
-                    alt="Sand blasting service"
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-2xl font-bold text-slate-900 mb-3">Sand Blasting</h3>
-                  <p className="text-slate-600 mb-4">
-                    Professional surface preparation and cleaning services for industrial equipment and metal surfaces.
-                  </p>
-                  <div className="flex space-x-2">
-                    <img src="/images/IMG_8803.JPG" alt="Sand blasting work" className="w-16 h-12 object-cover rounded" />
-                    <img src="/images/IMG_8804.JPG" alt="Sand blasting process" className="w-16 h-12 object-cover rounded" />
-                  </div>
-                </div>
-              </div>
-            </ScrollAnimation>
-
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* Battery Tanks Service */}
-            <ScrollAnimation delay={200}>
+            <ScrollAnimation delay={100}>
               <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group">
                 <div className="h-48 overflow-hidden">
                   <img 
@@ -831,7 +871,7 @@ const Home = () => {
             </ScrollAnimation>
 
             {/* Custom Fabrication Service */}
-            <ScrollAnimation delay={300}>
+            <ScrollAnimation delay={200}>
               <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group">
                 <div className="h-48 overflow-hidden">
                   <img 

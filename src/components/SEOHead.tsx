@@ -9,6 +9,13 @@ interface SEOHeadProps {
   url?: string;
   type?: 'website' | 'article' | 'business';
   structuredData?: object;
+  noindex?: boolean;
+  canonical?: string;
+  author?: string;
+  publishedTime?: string;
+  modifiedTime?: string;
+  section?: string;
+  tags?: string[];
 }
 
 const SEOHead: React.FC<SEOHeadProps> = ({
@@ -16,12 +23,20 @@ const SEOHead: React.FC<SEOHeadProps> = ({
   description = "Professional custom metal fabrication services in South Africa. Specializing in industrial equipment, forklift battery tanks, pallet jacks, and custom metalwork.",
   keywords = "metal fabrication, custom metalwork, industrial equipment, forklift battery tanks, pallet jacks, South Africa, welding, steel fabrication, manufacturing",
   image = "/images/logo2.png",
-  url = "https://fundzama.co.za",
+  url = "https://fundzama.netlify.app",
   type = "website",
-  structuredData
+  structuredData,
+  noindex = false,
+  canonical,
+  author = "Fundzama Fabrication",
+  publishedTime,
+  modifiedTime,
+  section,
+  tags = []
 }) => {
   const siteName = "Fundzama Fabrication";
-  const canonicalUrl = `${url}${window.location.pathname}`;
+  const canonicalUrl = canonical || `${url}${window.location.pathname}`;
+  const robotsContent = noindex ? "noindex, nofollow" : "index, follow";
   
   return (
     <Helmet>
@@ -29,13 +44,27 @@ const SEOHead: React.FC<SEOHeadProps> = ({
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
-      <meta name="robots" content="index, follow" />
-      <meta name="author" content="Fundzama Fabrication" />
+      <meta name="robots" content={robotsContent} />
+      <meta name="author" content={author} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name="language" content="English" />
       <meta name="geo.region" content="ZA" />
       <meta name="geo.placename" content="South Africa" />
+      
+      {/* Enhanced Meta Tags */}
+      <meta name="rating" content="General" />
+      <meta name="distribution" content="Global" />
+      <meta name="revisit-after" content="7 days" />
+      <meta name="target" content="all" />
+      <meta name="audience" content="all" />
+      <meta name="coverage" content="Worldwide" />
+      
+      {/* Article specific meta tags */}
+      {publishedTime && <meta name="article:published_time" content={publishedTime} />}
+      {modifiedTime && <meta name="article:modified_time" content={modifiedTime} />}
+      {section && <meta name="article:section" content={section} />}
+      {tags.length > 0 && tags.map(tag => <meta key={tag} name="article:tag" content={tag} />)}
       
       {/* Canonical URL */}
       <link rel="canonical" href={canonicalUrl} />
