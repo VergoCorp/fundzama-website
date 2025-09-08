@@ -65,7 +65,7 @@ const Home = () => {
             <ScrollAnimation delay={400}>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
-                  to="/products"
+                  to="/services"
                   className="bg-gradient-to-r from-orange-600 to-orange-700 hover:from-orange-700 hover:to-orange-800 text-white px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl flex items-center justify-center group border-2 border-orange-500"
                 >
                   EXPLORE PRODUCTS
