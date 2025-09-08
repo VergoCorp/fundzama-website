@@ -126,29 +126,29 @@ const Home = () => {
                   description: 'Stairs, railings and safety platforms'
                 },
                 {
-                  name: 'Custom Fabrication',
-                  image: '/images/img_4_1753212532992.jpg',
-                  description: 'Bespoke metal fabrication solutions'
+                  name: 'Electric Jacks',
+                  image: '/images/electric jack.jpg',
+                  description: 'Electric pallet jacks and lifting equipment'
                 },
                 {
-                  name: 'Outdoor Furniture',
-                  image: '/images/img_5_1753212569040.jpg',
-                  description: 'Weather-resistant commercial furniture'
+                  name: 'Custom Fireplaces',
+                  image: '/images/fireplace 1.jpg',
+                  description: 'Custom-built outdoor fireplaces and grills'
                 },
                 {
-                  name: 'Washbay Systems',
-                  image: '/images/img_6_1753212575500.jpg',
-                  description: 'Battery maintenance and cleaning systems'
+                  name: 'Industrial Staircases',
+                  image: '/images/staircase.jpg',
+                  description: 'Custom-built industrial stairs and safety railings'
                 },
                 {
-                  name: 'Industrial Stairs',
-                  image: '/images/img_8_1753212630651.jpg',
-                  description: 'Safety-compliant access solutions'
+                  name: 'Overhead Jacks',
+                  image: '/images/headjack.jpg',
+                  description: 'Heavy-duty overhead lifting equipment'
                 },
                 {
-                  name: 'Custom Solutions',
-                  image: '/images/img_9_1753212644089.jpg',
-                  description: 'Tailored fabrication services'
+                  name: 'Custom Trailers',
+                  image: '/images/trailer.jpg',
+                  description: 'Custom-built utility and cargo trailers'
                 }
               ].map((product, index) => (
                 <div key={index} className="flex-shrink-0 w-64 bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group">
@@ -189,29 +189,29 @@ const Home = () => {
                   description: 'Stairs, railings and safety platforms'
                 },
                 {
-                  name: 'Custom Fabrication',
-                  image: '/images/img_4_1753212532992.jpg',
-                  description: 'Bespoke metal fabrication solutions'
+                  name: 'Electric Jacks',
+                  image: '/images/electric jack.jpg',
+                  description: 'Electric pallet jacks and lifting equipment'
                 },
                 {
-                  name: 'Outdoor Furniture',
-                  image: '/images/img_5_1753212569040.jpg',
-                  description: 'Weather-resistant commercial furniture'
+                  name: 'Custom Fireplaces',
+                  image: '/images/fireplace 1.jpg',
+                  description: 'Custom-built outdoor fireplaces and grills'
                 },
                 {
-                  name: 'Washbay Systems',
-                  image: '/images/img_6_1753212575500.jpg',
-                  description: 'Battery maintenance and cleaning systems'
+                  name: 'Industrial Staircases',
+                  image: '/images/staircase.jpg',
+                  description: 'Custom-built industrial stairs and safety railings'
                 },
                 {
-                  name: 'Industrial Stairs',
-                  image: '/images/img_8_1753212630651.jpg',
-                  description: 'Safety-compliant access solutions'
+                  name: 'Overhead Jacks',
+                  image: '/images/headjack.jpg',
+                  description: 'Heavy-duty overhead lifting equipment'
                 },
                 {
-                  name: 'Custom Solutions',
-                  image: '/images/img_9_1753212644089.jpg',
-                  description: 'Tailored fabrication services'
+                  name: 'Custom Trailers',
+                  image: '/images/trailer.jpg',
+                  description: 'Custom-built utility and cargo trailers'
                 }
               ].map((product, index) => (
                 <div key={`duplicate-${index}`} className="flex-shrink-0 w-64 bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group">
@@ -252,29 +252,29 @@ const Home = () => {
                   description: 'Stairs, railings and safety platforms'
                 },
                 {
-                  name: 'Custom Fabrication',
-                  image: '/images/img_4_1753212532992.jpg',
-                  description: 'Bespoke metal fabrication solutions'
+                  name: 'Electric Jacks',
+                  image: '/images/electric jack.jpg',
+                  description: 'Electric pallet jacks and lifting equipment'
                 },
                 {
-                  name: 'Outdoor Furniture',
-                  image: '/images/img_5_1753212569040.jpg',
-                  description: 'Weather-resistant commercial furniture'
+                  name: 'Custom Fireplaces',
+                  image: '/images/fireplace 1.jpg',
+                  description: 'Custom-built outdoor fireplaces and grills'
                 },
                 {
-                  name: 'Washbay Systems',
-                  image: '/images/img_6_1753212575500.jpg',
-                  description: 'Battery maintenance and cleaning systems'
+                  name: 'Industrial Staircases',
+                  image: '/images/staircase.jpg',
+                  description: 'Custom-built industrial stairs and safety railings'
                 },
                 {
-                  name: 'Industrial Stairs',
-                  image: '/images/img_8_1753212630651.jpg',
-                  description: 'Safety-compliant access solutions'
+                  name: 'Overhead Jacks',
+                  image: '/images/headjack.jpg',
+                  description: 'Heavy-duty overhead lifting equipment'
                 },
                 {
-                  name: 'Custom Solutions',
-                  image: '/images/img_9_1753212644089.jpg',
-                  description: 'Tailored fabrication services'
+                  name: 'Custom Trailers',
+                  image: '/images/trailer.jpg',
+                  description: 'Custom-built utility and cargo trailers'
                 }
               ].map((product, index) => (
                 <div key={`third-${index}`} className="flex-shrink-0 w-64 bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group">
@@ -870,23 +870,23 @@ const Home = () => {
               </div>
             </ScrollAnimation>
 
-            {/* Custom Fabrication Service */}
+            {/* Electric Jacks Service */}
             <ScrollAnimation delay={200}>
               <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group">
                 <div className="h-48 overflow-hidden">
                   <img 
-                    src="/images/headjack.jpg" 
-                    alt="Custom fabrication service"
+                    src="/images/electric jack.jpg" 
+                    alt="Electric jacks service"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-2xl font-bold text-slate-900 mb-3">Custom Fabrication</h3>
+                  <h3 className="text-2xl font-bold text-slate-900 mb-3">Electric Jacks</h3>
                   <p className="text-slate-600 mb-4">
-                    Bespoke metal fabrication including overhead jacks, staircases, and specialised equipment.
+                    Electric pallet jacks and lifting equipment for industrial applications.
                   </p>
                   <div className="flex space-x-2">
-                    <img src="/images/staircase.jpg" alt="Custom staircase" className="w-16 h-12 object-cover rounded" />
+                    <img src="/images/headjack.jpg" alt="Overhead jack" className="w-16 h-12 object-cover rounded" />
                   </div>
                 </div>
               </div>
