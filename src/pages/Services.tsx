@@ -30,7 +30,7 @@ const Services = () => {
         title="Custom Steel Fabrication Services - We Make Anything Steel | Fundzama"
         description="Expert custom steel fabrication services. From overhead jacks to fireplaces, industrial equipment to decorative pieces - if it's steel, we fabricate it to perfection."
         keywords="custom steel fabrication, overhead jacks, fireplaces, industrial equipment, metal fabrication services, bespoke steel work, South Africa"
-        image="https://fundzama.co.za/src/images/headjack.jpg"
+        image="https://fundzama.co.za/images/headjack.jpg"
         url="https://fundzama.co.za/services"
         type="website"
         structuredData={combinedSchema}
@@ -103,9 +103,9 @@ const Services = () => {
                 title="Custom Fabrication Excellence"
                 subtitle="From concept to completion - see our craftsmanship in action"
                 images={[
-                  { src: '/src/images/headjack.jpg', alt: 'Custom overhead jack system', title: 'Overhead Jack Systems', description: 'Heavy-duty overhead jacks for industrial lifting applications' },
-                  { src: '/src/images/staircase.jpg', alt: 'Custom industrial staircase', title: 'Industrial Staircases', description: 'Safety-compliant staircases with custom railings and platforms' },
-                  { src: '/src/images/IMG_8656.JPG', alt: 'Precision metal fabrication work', title: 'Electrical Forklift Battery tanks', description: 'Speacilised battery tanks for electrical forklift systems' }
+                  { src: '/images/headjack.jpg', alt: 'Custom overhead jack system', title: 'Overhead Jack Systems', description: 'Heavy-duty overhead jacks for industrial lifting applications' },
+                  { src: '/images/staircase.jpg', alt: 'Custom industrial staircase', title: 'Industrial Staircases', description: 'Safety-compliant staircases with custom railings and platforms' },
+                  { src: '/images/IMG_8656.JPG', alt: 'Precision metal fabrication work', title: 'Electrical Forklift Battery tanks', description: 'Speacilised battery tanks for electrical forklift systems' }
                 ]}
                 columns={3}
               />
@@ -122,14 +122,14 @@ const Services = () => {
                       <div className="space-y-2">
                         <div className="aspect-square rounded-lg overflow-hidden shadow-lg">
                           <img 
-                            src="/src/images/electric jack.jpg" 
+                            src="/images/electric jack.jpg" 
                             alt="Electronic Battery Jack" 
                             className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                           />
                         </div>
                         <div className="aspect-square rounded-lg overflow-hidden shadow-lg">
                           <img 
-                            src="/src/images/mine cropped 1.png" 
+                            src="/images/mine cropped 1.png" 
                             alt="Mining Battery Tank" 
                             className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                           />
@@ -137,7 +137,7 @@ const Services = () => {
                       </div>
                       <div className="aspect-[4/5] rounded-lg overflow-hidden shadow-lg">
                         <img 
-                          src="/src/images/fireplace 1.jpg" 
+                          src="/images/fireplace 1.jpg" 
                           alt="Custom Fireplace" 
                           className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                         />

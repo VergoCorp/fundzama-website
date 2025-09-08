@@ -15,7 +15,7 @@ const Products = () => {
       rating: 4.8,
       reviews: 24,
       description: 'Heavy-duty battery containment system with multiple color options and safety features.',
-      image: '/src/images/tank1.jpg',
+      image: '/images/tank1.jpg',
       features: ['Multiple color options', 'Safety features', 'Heavy-duty construction', 'Easy installation'],
       specifications: {
         'Material': 'High-grade steel',
@@ -39,7 +39,7 @@ const Products = () => {
       rating: 4.9,
       reviews: 31,
       description: 'Professional-grade pallet handling equipment in roller and standard configurations.',
-      image: '/src/images/IMG_8657.JPG',
+      image: '/images/IMG_8657.JPG',
       features: ['Roller configuration', 'Standard configuration', 'Professional grade', 'Durable construction'],
       specifications: {
         'Load Capacity': 'Up to 2500kg',
@@ -63,7 +63,7 @@ const Products = () => {
       rating: 4.7,
       reviews: 18,
       description: 'Safety-compliant stairways and railing systems for industrial environments.',
-      image: '/src/images/IMG_8656.JPG',
+      image: '/images/IMG_8656.JPG',
       features: ['Safety compliant', 'Industrial grade', 'Custom sizing', 'Easy installation'],
       specifications: {
         'Material': 'Galvanised steel',
@@ -87,7 +87,7 @@ const Products = () => {
       rating: 4.6,
       reviews: 15,
       description: 'Specialised washbay systems with perforated surfaces for battery maintenance.',
-      image: '/src/images/IMG_8655.JPG',
+      image: '/images/IMG_8655.JPG',
       features: ['Perforated surface', 'Battery maintenance', 'Specialised design', 'Durable materials'],
       specifications: {
         'Material': 'Stainless steel',
@@ -111,7 +111,7 @@ const Products = () => {
       rating: 4.9,
       reviews: 42,
       description: 'Weather-resistant outdoor furniture solutions for commercial and residential use.',
-      image: '/src/images/IMG_8654.JPG',
+      image: '/images/IMG_8654.JPG',
       features: ['Weather resistant', 'Commercial grade', 'Residential use', 'Custom designs'],
       specifications: {
         'Material': 'Powder-coated steel',
@@ -160,7 +160,7 @@ const Products = () => {
       rating: 4.9,
       reviews: 28,
       description: 'Bespoke metal fabrication services for unique industrial requirements.',
-      image: '/src/images/IMG_8653.JPG',
+      image: '/images/IMG_8653.JPG',
       features: ['Custom design', 'Industrial grade', 'Precision engineering', 'Quality finish'],
       specifications: {
         'Material': 'Various steel grades',
@@ -184,7 +184,7 @@ const Products = () => {
       rating: 4.8,
       reviews: 35,
       description: 'Professional workshop equipment and machinery for industrial applications.',
-      image: '/src/images/IMG_8651.JPG',
+      image: '/images/IMG_8651.JPG',
       features: ['Heavy-duty construction', 'Professional grade', 'Safety features', 'Easy maintenance'],
       specifications: {
         'Material': 'Industrial steel',

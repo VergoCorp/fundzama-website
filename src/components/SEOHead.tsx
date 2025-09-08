@@ -15,7 +15,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({
   title = "Fundzama Fabrication - Custom Metal Fabrication Solutions | South Africa",
   description = "Professional custom metal fabrication services in South Africa. Specializing in industrial equipment, forklift battery tanks, pallet jacks, and custom metalwork.",
   keywords = "metal fabrication, custom metalwork, industrial equipment, forklift battery tanks, pallet jacks, South Africa, welding, steel fabrication, manufacturing",
-  image = "/src/images/logo2.png",
+  image = "/images/logo2.png",
   url = "https://fundzama.co.za",
   type = "website",
   structuredData

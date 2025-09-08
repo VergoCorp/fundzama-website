@@ -13,7 +13,7 @@ const Projects = () => {
       client: 'Anglo American',
       year: '2024',
       location: 'Johannesburg, SA',
-      image: '/src/images/IMG_8676.JPG',
+      image: '/images/IMG_8676.JPG',
       status: 'Completed',
       value: 'R 2.5M'
     },
@@ -25,7 +25,7 @@ const Projects = () => {
       client: 'Shoprite Holdings',
       year: '2024',
       location: 'Cape Town, SA',
-      image: '/src/images/IMG_8673.JPG',
+      image: '/images/IMG_8673.JPG',
       status: 'Completed',
       value: 'R 1.8M'
     },
@@ -37,7 +37,7 @@ const Projects = () => {
       client: 'Sasol Limited',
       year: '2023',
       location: 'Durban, SA',
-      image: '/src/images/IMG_8674.JPG',
+      image: '/images/IMG_8674.JPG',
       status: 'Completed',
       value: 'R 3.2M'
     },
@@ -49,7 +49,7 @@ const Projects = () => {
       client: 'Woolworths Holdings',
       year: '2023',
       location: 'Nationwide',
-      image: '/src/images/IMG_8671.JPG',
+      image: '/images/IMG_8671.JPG',
       status: 'Completed',
       value: 'R 950K'
     },
@@ -61,7 +61,7 @@ const Projects = () => {
       client: 'Eskom Holdings',
       year: '2023',
       location: 'Pretoria, SA',
-      image: '/src/images/IMG_8672.JPG',
+      image: '/images/IMG_8672.JPG',
       status: 'Completed',
       value: 'R 4.1M'
     },
@@ -73,7 +73,7 @@ const Projects = () => {
       client: 'BMW South Africa',
       year: '2022',
       location: 'East London, SA',
-      image: '/src/images/IMG_8670.JPG',
+      image: '/images/IMG_8670.JPG',
       status: 'Completed',
       value: 'R 2.7M'
     }

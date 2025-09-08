@@ -25,7 +25,7 @@ const Home = () => {
         title="Fundzama Fabrication - Custom Metal Fabrication Solutions | South Africa"
         description="South Africa's premier metal fabrication company. Custom metalwork, industrial equipment, forklift battery tanks, and precision engineering solutions."
         keywords="metal fabrication South Africa, custom metalwork, industrial equipment, forklift battery tanks, pallet jacks, welding services, steel fabrication, manufacturing"
-        image="https://fundzama.co.za/src/images/tanks7.jpg"
+        image="https://fundzama.co.za/images/tanks7.jpg"
         url="https://fundzama.co.za"
         type="website"
         structuredData={combinedSchema}
@@ -41,7 +41,7 @@ const Home = () => {
           {/* Battery Tanks Background */}
           <div className="absolute inset-0">
             <img 
-              src="/src/images/tanks7.jpg" 
+              src="/images/tanks7.jpg" 
               alt="Battery tanks and industrial equipment" 
               className="w-full h-full object-cover opacity-20"
             />
@@ -107,47 +107,47 @@ const Home = () => {
               {[
                 {
                   name: 'Battery Tanks',
-                  image: '/src/images/tanks7.jpg',
+                  image: '/images/tanks7.jpg',
                   description: 'Electric forklift battery containment systems'
                 },
                 {
                   name: 'Industrial Equipment',
-                  image: '/src/images/img_18_1753212850792.jpg',
+                  image: '/images/img_18_1753212850792.jpg',
                   description: 'Heavy-duty machinery and fabrication'
                 },
                 {
                   name: 'Material Handling',
-                  image: '/src/images/img_14_1753212778101.jpg',
+                  image: '/images/img_14_1753212778101.jpg',
                   description: 'Pallet jacks and lifting equipment'
                 },
                 {
                   name: 'Safety Infrastructure',
-                  image: '/src/images/img_15_1753212782640.jpg',
+                  image: '/images/img_15_1753212782640.jpg',
                   description: 'Stairs, railings and safety platforms'
                 },
                 {
                   name: 'Custom Fabrication',
-                  image: '/src/images/img_4_1753212532992.jpg',
+                  image: '/images/img_4_1753212532992.jpg',
                   description: 'Bespoke metal fabrication solutions'
                 },
                 {
                   name: 'Outdoor Furniture',
-                  image: '/src/images/img_5_1753212569040.jpg',
+                  image: '/images/img_5_1753212569040.jpg',
                   description: 'Weather-resistant commercial furniture'
                 },
                 {
                   name: 'Washbay Systems',
-                  image: '/src/images/img_6_1753212575500.jpg',
+                  image: '/images/img_6_1753212575500.jpg',
                   description: 'Battery maintenance and cleaning systems'
                 },
                 {
                   name: 'Industrial Stairs',
-                  image: '/src/images/img_8_1753212630651.jpg',
+                  image: '/images/img_8_1753212630651.jpg',
                   description: 'Safety-compliant access solutions'
                 },
                 {
                   name: 'Custom Solutions',
-                  image: '/src/images/img_9_1753212644089.jpg',
+                  image: '/images/img_9_1753212644089.jpg',
                   description: 'Tailored fabrication services'
                 }
               ].map((product, index) => (
@@ -170,47 +170,47 @@ const Home = () => {
               {[
                 {
                   name: 'Battery Tanks',
-                  image: '/src/images/tanks7.jpg',
+                  image: '/images/tanks7.jpg',
                   description: 'Electric forklift battery containment systems'
                 },
                 {
                   name: 'Industrial Equipment',
-                  image: '/src/images/img_18_1753212850792.jpg',
+                  image: '/images/img_18_1753212850792.jpg',
                   description: 'Heavy-duty machinery and fabrication'
                 },
                 {
                   name: 'Material Handling',
-                  image: '/src/images/img_14_1753212778101.jpg',
+                  image: '/images/img_14_1753212778101.jpg',
                   description: 'Pallet jacks and lifting equipment'
                 },
                 {
                   name: 'Safety Infrastructure',
-                  image: '/src/images/img_15_1753212782640.jpg',
+                  image: '/images/img_15_1753212782640.jpg',
                   description: 'Stairs, railings and safety platforms'
                 },
                 {
                   name: 'Custom Fabrication',
-                  image: '/src/images/img_4_1753212532992.jpg',
+                  image: '/images/img_4_1753212532992.jpg',
                   description: 'Bespoke metal fabrication solutions'
                 },
                 {
                   name: 'Outdoor Furniture',
-                  image: '/src/images/img_5_1753212569040.jpg',
+                  image: '/images/img_5_1753212569040.jpg',
                   description: 'Weather-resistant commercial furniture'
                 },
                 {
                   name: 'Washbay Systems',
-                  image: '/src/images/img_6_1753212575500.jpg',
+                  image: '/images/img_6_1753212575500.jpg',
                   description: 'Battery maintenance and cleaning systems'
                 },
                 {
                   name: 'Industrial Stairs',
-                  image: '/src/images/img_8_1753212630651.jpg',
+                  image: '/images/img_8_1753212630651.jpg',
                   description: 'Safety-compliant access solutions'
                 },
                 {
                   name: 'Custom Solutions',
-                  image: '/src/images/img_9_1753212644089.jpg',
+                  image: '/images/img_9_1753212644089.jpg',
                   description: 'Tailored fabrication services'
                 }
               ].map((product, index) => (
@@ -268,7 +268,7 @@ const Home = () => {
               <div className="flex justify-center lg:justify-end">
                 <div className="bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl shadow-2xl overflow-hidden services-logo-container">
                   <VideoPlayer
-                    src="/src/images/MVI_8758.MP4"
+                    src="/images/MVI_8758.MP4"
                     alt="Fundzama Fabrication Process"
                     className="w-full h-full"
                     autoPlay={true}
@@ -296,7 +296,7 @@ const Home = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="col-span-2 h-64 rounded-2xl overflow-hidden shadow-2xl">
                     <img 
-                      src="/src/images/img_18_1753212850792.jpg" 
+                      src="/images/img_18_1753212850792.jpg" 
                       alt="Metal fabrication workshop" 
                       className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                     />
@@ -304,14 +304,14 @@ const Home = () => {
                   
                   <div className="h-48 rounded-2xl overflow-hidden shadow-2xl">
                     <img 
-                      src="/src/images/img_14_1753212778101.jpg" 
+                      src="/images/img_14_1753212778101.jpg" 
                       alt="Industrial equipment" 
                       className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                     />
                   </div>
                   <div className="h-48 rounded-2xl overflow-hidden shadow-2xl">
                     <img 
-                      src="/src/images/img_15_1753212782640.jpg" 
+                      src="/images/img_15_1753212782640.jpg" 
                       alt="Custom fabrication" 
                       className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                     />
@@ -319,14 +319,14 @@ const Home = () => {
                   
                   <div className="h-40 rounded-2xl overflow-hidden shadow-2xl">
                     <img 
-                      src="/src/images/img_4_1753212532992.jpg" 
+                      src="/images/img_4_1753212532992.jpg" 
                       alt="Precision engineering" 
                       className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                     />
                   </div>
                   <div className="h-40 rounded-2xl overflow-hidden shadow-2xl">
                     <img 
-                      src="/src/images/img_5_1753212569040.jpg" 
+                      src="/images/img_5_1753212569040.jpg" 
                       alt="Quality craftsmanship" 
                       className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                     />
@@ -478,7 +478,7 @@ const Home = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="col-span-2 h-64 rounded-2xl overflow-hidden shadow-2xl">
                     <img 
-                      src="/src/images/img_16_1753212803002.jpg" 
+                      src="/images/img_16_1753212803002.jpg" 
                       alt="Mining complex project" 
                       className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                     />
@@ -486,14 +486,14 @@ const Home = () => {
                   
                   <div className="h-48 rounded-2xl overflow-hidden shadow-2xl">
                     <img 
-                      src="/src/images/img_17_1753212814911.jpg" 
+                      src="/images/img_17_1753212814911.jpg" 
                       alt="Warehouse automation" 
                       className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                     />
                   </div>
                   <div className="h-48 rounded-2xl overflow-hidden shadow-2xl">
                     <img 
-                      src="/src/images/img_6_1753212575500.jpg" 
+                      src="/images/img_6_1753212575500.jpg" 
                       alt="Manufacturing upgrade" 
                       className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                     />
@@ -501,14 +501,14 @@ const Home = () => {
                   
                   <div className="h-40 rounded-2xl overflow-hidden shadow-2xl">
                     <img 
-                      src="/src/images/img_8_1753212630651.jpg" 
+                      src="/images/img_8_1753212630651.jpg" 
                       alt="Industrial installation" 
                       className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                     />
                   </div>
                   <div className="h-40 rounded-2xl overflow-hidden shadow-2xl">
                     <img 
-                      src="/src/images/img_9_1753212644089.jpg" 
+                      src="/images/img_9_1753212644089.jpg" 
                       alt="Custom fabrication" 
                       className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                     />
@@ -793,7 +793,7 @@ const Home = () => {
               <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group">
                 <div className="h-48 overflow-hidden">
                   <img 
-                    src="/src/images/IMG_8802.JPG" 
+                    src="/images/IMG_8802.JPG" 
                     alt="Sand blasting service"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -804,8 +804,8 @@ const Home = () => {
                     Professional surface preparation and cleaning services for industrial equipment and metal surfaces.
                   </p>
                   <div className="flex space-x-2">
-                    <img src="/src/images/IMG_8803.JPG" alt="Sand blasting work" className="w-16 h-12 object-cover rounded" />
-                    <img src="/src/images/IMG_8804.JPG" alt="Sand blasting process" className="w-16 h-12 object-cover rounded" />
+                    <img src="/images/IMG_8803.JPG" alt="Sand blasting work" className="w-16 h-12 object-cover rounded" />
+                    <img src="/images/IMG_8804.JPG" alt="Sand blasting process" className="w-16 h-12 object-cover rounded" />
                   </div>
                 </div>
               </div>
@@ -816,7 +816,7 @@ const Home = () => {
               <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group">
                 <div className="h-48 overflow-hidden">
                   <img 
-                    src="/src/images/IMG_8646.JPG" 
+                    src="/images/IMG_8646.JPG" 
                     alt="Battery tanks service"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -835,7 +835,7 @@ const Home = () => {
               <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group">
                 <div className="h-48 overflow-hidden">
                   <img 
-                    src="/src/images/headjack.jpg" 
+                    src="/images/headjack.jpg" 
                     alt="Custom fabrication service"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -846,7 +846,7 @@ const Home = () => {
                     Bespoke metal fabrication including overhead jacks, staircases, and specialised equipment.
                   </p>
                   <div className="flex space-x-2">
-                    <img src="/src/images/staircase.jpg" alt="Custom staircase" className="w-16 h-12 object-cover rounded" />
+                    <img src="/images/staircase.jpg" alt="Custom staircase" className="w-16 h-12 object-cover rounded" />
                   </div>
                 </div>
               </div>

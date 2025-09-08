@@ -25,7 +25,7 @@ const About = () => {
         title="About Fundzama Fabrication - South Africa's Metal Fabrication Experts"
         description="Learn about Fundzama Fabrication's 10+ years of excellence in custom metal fabrication, industrial equipment manufacturing, and precision engineering in South Africa."
         keywords="about Fundzama, metal fabrication company, South Africa manufacturing, industrial equipment, company history, fabrication expertise"
-        image="https://fundzama.co.za/src/images/logo2.png"
+        image="https://fundzama.co.za/images/logo2.png"
         url="https://fundzama.co.za/about"
         type="website"
         structuredData={combinedSchema}

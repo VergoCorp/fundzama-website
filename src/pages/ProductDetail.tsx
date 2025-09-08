@@ -34,7 +34,7 @@ const ProductDetail = () => {
         'Distribution centers',
         'Industrial complexes'
       ],
-      images: ['/src/images/tank1.jpg', '/src/images/tanks7.jpg', '/src/images/tank2.jpg', '/src/images/tank3.jpg', '/src/images/tank4.jpg']
+      images: ['/images/tank1.jpg', '/images/tanks7.jpg', '/images/tank2.jpg', '/images/tank3.jpg', '/images/tank4.jpg']
     },
     'pallet-jacks': {
       title: 'Uplift Pallet Jacks',
@@ -236,7 +236,7 @@ const ProductDetail = () => {
             
             <ScrollAnimation delay={200}>
               <div className="bg-slate-200 rounded-lg overflow-hidden h-96">
-                {product.images[0].startsWith('/src/images/') ? (
+                {product.images[0].startsWith('/images/') ? (
                   <img 
                     src={product.images[0]} 
                     alt={product.title}
@@ -267,7 +267,7 @@ const ProductDetail = () => {
             {product.images.map((image: string, index: number) => (
               <ScrollAnimation key={index} delay={index * 100}>
                 <div className="bg-slate-200 rounded-lg overflow-hidden h-48 hover:bg-slate-300 transition-colors cursor-pointer">
-                  {image.startsWith('/src/images/') ? (
+                  {image.startsWith('/images/') ? (
                     <img 
                       src={image} 
                       alt={`${product.title} - Image ${index + 1}`}

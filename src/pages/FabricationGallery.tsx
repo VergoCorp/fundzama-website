@@ -7,7 +7,7 @@ const FabricationGallery: React.FC = () => {
   const fabricationProjects = [
     {
       id: 'electric-jack',
-      images: ['/src/images/electric jack.jpg'],
+      images: ['/images/electric jack.jpg'],
       title: 'Electronic Battery Jack',
       description: 'Custom-engineered electronic battery jack featuring precision hydraulic systems and robust steel construction. Designed for industrial applications requiring reliable lifting and positioning capabilities.',
       category: 'Industrial Equipment',
@@ -22,8 +22,8 @@ const FabricationGallery: React.FC = () => {
     {
       id: 'mining-battery-tanks',
       images: [
-        '/src/images/mine cropped 1.png',
-        '/src/images/mine cropped.png'
+        '/images/mine cropped 1.png',
+        '/images/mine cropped.png'
       ],
       title: 'Heavy-Duty Mining Battery Tanks',
       description: 'Robust battery tank systems engineered for extreme mining environments. Features reinforced construction, precision-welded seams, and industrial-grade finishes designed to withstand harsh operational conditions.',
@@ -40,9 +40,9 @@ const FabricationGallery: React.FC = () => {
     {
       id: 'custom-fireplace',
       images: [
-        '/src/images/fireplace 1.jpg',
-        '/src/images/fireplace 2.jpg',
-        '/src/images/fireplace 3.jpg'
+        '/images/fireplace 1.jpg',
+        '/images/fireplace 2.jpg',
+        '/images/fireplace 3.jpg'
       ],
       title: 'Custom Built-in Fireplace',
       description: 'Sophisticated custom fireplace installation featuring precision-engineered steel components, multiple cooking surfaces, and integrated storage solutions. A perfect blend of functionality and aesthetic appeal.',
@@ -58,7 +58,7 @@ const FabricationGallery: React.FC = () => {
     },
     {
       id: 'battery-tank',
-      images: ['/src/images/tank 2.4.jpg'],
+      images: ['/images/tank 2.4.jpg'],
       title: 'Industrial Battery Tank',
       description: 'Precision-fabricated industrial battery tank with robust construction and professional finish. Designed for reliable performance in demanding industrial applications.',
       category: 'Industrial Equipment',
@@ -73,7 +73,7 @@ const FabricationGallery: React.FC = () => {
     },
     {
       id: 'custom-trailer',
-      images: ['/src/images/trailer.jpg'],
+      images: ['/images/trailer.jpg'],
       title: 'Custom Equipment Trailer',
       description: 'Multi-purpose equipment trailer featuring dual-axle configuration, safety railings, and custom-designed loading platform. Built for reliable transport of heavy equipment and materials.',
       category: 'Transport Solutions',
@@ -102,13 +102,13 @@ const FabricationGallery: React.FC = () => {
         <meta property="og:title" content="Fabrication Gallery - Custom Steel Projects | Fundzama" />
         <meta property="og:description" content="Explore our featured fabrication projects showcasing custom steel work, industrial equipment, and architectural features." />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/src/images/electric jack.jpg" />
+        <meta property="og:image" content="/images/electric jack.jpg" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Fabrication Gallery - Custom Steel Projects | Fundzama" />
         <meta name="twitter:description" content="Explore our featured fabrication projects showcasing custom steel work, industrial equipment, and architectural features." />
-        <meta name="twitter:image" content="/src/images/electric jack.jpg" />
+        <meta name="twitter:image" content="/images/electric jack.jpg" />
       </Helmet>
 
       <div className="min-h-screen">

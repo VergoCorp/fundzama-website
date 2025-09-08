@@ -85,7 +85,7 @@ const Contact = () => {
         title="Contact Fundzama Fabrication - Get Your Custom Metal Fabrication Quote"
         description="Contact South Africa's premier metal fabrication company. Get quotes for custom metalwork, industrial equipment, and fabrication services. Expert consultation available."
         keywords="contact Fundzama, metal fabrication quote, South Africa fabrication, custom metalwork quote, industrial equipment inquiry"
-        image="https://fundzama.co.za/src/images/logo2.png"
+        image="https://fundzama.co.za/images/logo2.png"
         url="https://fundzama.co.za/contact"
         type="website"
         structuredData={webPageSchema}

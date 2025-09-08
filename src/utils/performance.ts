@@ -16,17 +16,17 @@ export const createIntersectionObserver = (callback: IntersectionObserverCallbac
 export const preloadCriticalResources = () => {
   // Preload critical images
   const criticalImages = [
-    '/src/images/logo2.png',
-    '/src/images/tanks7.jpg',
-    '/src/images/forklift-battery-tank.jpg', // Electric forklift battery tank image
-    '/src/images/electric jack.jpg', // Electronic battery jack
-    '/src/images/fireplace 1.jpg', // Custom fireplace image 1
-    '/src/images/fireplace 2.jpg', // Custom fireplace image 2
-    '/src/images/fireplace 3.jpg', // Custom fireplace image 3
-    '/src/images/mine cropped 1.png', // Mining equipment battery tank 1
-    '/src/images/mine cropped.png', // Mining equipment battery tank 2
-    '/src/images/tank 2.4.jpg', // Additional battery tank
-    '/src/images/trailer.jpg' // Custom trailer
+    '/images/logo2.png',
+    '/images/tanks7.jpg',
+    '/images/forklift-battery-tank.jpg', // Electric forklift battery tank image
+    '/images/electric jack.jpg', // Electronic battery jack
+    '/images/fireplace 1.jpg', // Custom fireplace image 1
+    '/images/fireplace 2.jpg', // Custom fireplace image 2
+    '/images/fireplace 3.jpg', // Custom fireplace image 3
+    '/images/mine cropped 1.png', // Mining equipment battery tank 1
+    '/images/mine cropped.png', // Mining equipment battery tank 2
+    '/images/tank 2.4.jpg', // Additional battery tank
+    '/images/trailer.jpg' // Custom trailer
   ];
 
   criticalImages.forEach(src => {
