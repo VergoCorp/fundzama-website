@@ -76,7 +76,7 @@ const Services = () => {
                 {[
                   { category: 'Industrial Equipment', items: ['Overhead Jacks', 'Material Handling', 'Safety Railings', 'Platforms & Walkways'] },
                   { category: 'Commercial & Decorative', items: ['Custom Fireplaces', 'Architectural Features', 'Outdoor Furniture', 'Gates & Fencing'] },
-                  { category: 'SpecialisedSolutions', items: ['Battery Tank Systems', 'Washbay Equipment', 'Custom Machinery', 'Structural Components'] },
+                  { category: 'Specialised Solutions', items: ['Battery Tank Systems', 'Washbay Equipment', 'Custom Machinery', 'Structural Components'] },
                   { category: 'Surface & Finishing', items: ['Surface Preparation', 'Protective Coatings', 'Quality Finishing', 'Paint & Powder Coating'] }
                 ].map((service, index) => (
                   <div key={index} className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">

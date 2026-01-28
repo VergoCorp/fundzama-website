@@ -22,13 +22,13 @@
   }
 }
 
-/* Smooth infinite scroll animation */
+/* Smooth infinite scroll animation - truly seamless */
 @keyframes infinite-scroll {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 
@@ -55,7 +55,7 @@
 }
 
 .animate-infinite-scroll {
-  animation: infinite-scroll 12s linear infinite;
+  animation: infinite-scroll 20s linear infinite;
 }
 
 .animate-scroll-right {
@@ -71,6 +71,34 @@
 .animate-scroll-right:hover,
 .animate-infinite-scroll:hover {
   animation-play-state: paused;
+}
+
+/* Enhanced infinite scroll container */
+.infinite-scroll-container {
+  mask: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+  -webkit-mask: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+}
+
+/* Smooth transitions for infinite scroll items */
+.infinite-scroll-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.infinite-scroll-item:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 
 /* Text overlay animations */

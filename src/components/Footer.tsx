@@ -64,10 +64,10 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-orange-500" />
-                <span className="text-slate-300 text-sm">178 Barbara Road
-                  Elandsfontein,
-                  Germiston,
-                  1401
+                <span className="text-slate-300 text-sm">13 Lovato Road,
+                  Spartan Ext 3,
+                  Kempton Park,
+                  1619
                 </span>
               </div>
             </div>

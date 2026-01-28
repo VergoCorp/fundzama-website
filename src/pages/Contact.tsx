@@ -392,7 +392,7 @@ const Contact = () => {
                     <MapPin className="h-6 w-6 text-blue-500 mr-3 mt-1" />
                     <div>
                       <p className="font-semibold text-slate-900">Address</p>
-                      <p className="text-slate-600">Industrial Complex, Johannesburg<br />South Africa</p>
+                      <p className="text-slate-600">13 Lovato Road, Spartan Ext 3<br />Kempton Park, Gauteng, 1619</p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -416,12 +416,18 @@ const Contact = () => {
             </ScrollAnimation>
 
             <ScrollAnimation delay={400}>
-              <div className="bg-slate-200 rounded-lg p-8 text-center map-placeholder flex items-center justify-center">
-                <div>
-                  <div className="text-6xl mb-4">🗺️</div>
-                  <p className="text-slate-600 font-medium">PLACEHOLDER: Facility Location Map</p>
-                  <p className="text-sm text-slate-500 mt-2">Replace with: Interactive map or facility photo</p>
-                </div>
+              <div className="bg-white rounded-2xl shadow-lg overflow-hidden h-[450px] relative border border-slate-100">
+                <iframe
+                  title="Fundzama Fabrication Location"
+                  src="https://maps.google.com/maps?q=13%20Lovato%20Road,%20Spartan%20Ext%203,%20Kempton%20Park,%201619&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="rounded-xl"
+                ></iframe>
               </div>
             </ScrollAnimation>
           </div>

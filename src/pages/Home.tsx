@@ -102,8 +102,9 @@ const Home = () => {
             </div>
           </ScrollAnimation>
           
-          <div className="relative overflow-hidden">
+          <div className="relative overflow-hidden infinite-scroll-container">
             <div className="flex space-x-6 animate-infinite-scroll">
+              {/* First set of products */}
               {[
                 {
                   name: 'Battery Tanks',
@@ -151,7 +152,7 @@ const Home = () => {
                   description: 'Custom-built utility and cargo trailers'
                 }
               ].map((product, index) => (
-                <div key={index} className="flex-shrink-0 w-64 bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group">
+                <div key={index} className="flex-shrink-0 w-64 bg-white rounded-xl shadow-lg overflow-hidden infinite-scroll-item group">
                   <div className="h-40 overflow-hidden">
                     <img 
                       src={product.image} 
@@ -166,7 +167,7 @@ const Home = () => {
                 </div>
               ))}
               
-              {/* Duplicate items for seamless loop */}
+              {/* Duplicate set for seamless infinite loop */}
               {[
                 {
                   name: 'Battery Tanks',
@@ -214,7 +215,7 @@ const Home = () => {
                   description: 'Custom-built utility and cargo trailers'
                 }
               ].map((product, index) => (
-                <div key={`duplicate-${index}`} className="flex-shrink-0 w-64 bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group">
+                <div key={`duplicate-${index}`} className="flex-shrink-0 w-64 bg-white rounded-xl shadow-lg overflow-hidden infinite-scroll-item group">
                   <div className="h-40 overflow-hidden">
                     <img 
                       src={product.image} 
@@ -229,68 +230,6 @@ const Home = () => {
                 </div>
               ))}
               
-              {/* Third set for ultra-smooth infinite loop */}
-              {[
-                {
-                  name: 'Battery Tanks',
-                  image: '/images/tanks7.jpg',
-                  description: 'Electric forklift battery containment systems'
-                },
-                {
-                  name: 'Industrial Equipment',
-                  image: '/images/img_18_1753212850792.jpg',
-                  description: 'Heavy-duty machinery and fabrication'
-                },
-                {
-                  name: 'Material Handling',
-                  image: '/images/img_14_1753212778101.jpg',
-                  description: 'Pallet jacks and lifting equipment'
-                },
-                {
-                  name: 'Safety Infrastructure',
-                  image: '/images/img_15_1753212782640.jpg',
-                  description: 'Stairs, railings and safety platforms'
-                },
-                {
-                  name: 'Electric Jacks',
-                  image: '/images/electric jack.jpg',
-                  description: 'Electric pallet jacks and lifting equipment'
-                },
-                {
-                  name: 'Custom Fireplaces',
-                  image: '/images/fireplace 1.jpg',
-                  description: 'Custom-built outdoor fireplaces and grills'
-                },
-                {
-                  name: 'Industrial Staircases',
-                  image: '/images/staircase.jpg',
-                  description: 'Custom-built industrial stairs and safety railings'
-                },
-                {
-                  name: 'Overhead Jacks',
-                  image: '/images/headjack.jpg',
-                  description: 'Heavy-duty overhead lifting equipment'
-                },
-                {
-                  name: 'Custom Trailers',
-                  image: '/images/trailer.jpg',
-                  description: 'Custom-built utility and cargo trailers'
-                }
-              ].map((product, index) => (
-                <div key={`third-${index}`} className="flex-shrink-0 w-64 bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group">
-                  <div className="h-40 overflow-hidden">
-                    <img 
-                      src={product.image} 
-                      alt={product.name}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                    />
-                  </div>
-                  <div className="p-4">
-                    <h3 className="font-bold text-slate-900 mb-2 text-center">{product.name}</h3>
-                    <p className="text-sm text-slate-600 text-center leading-relaxed">{product.description}</p>
-                  </div>
-                </div>
-              ))}
             </div>
           </div>
         </div>

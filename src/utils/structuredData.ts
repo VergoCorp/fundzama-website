@@ -12,14 +12,14 @@ export const createBusinessSchema = () => ({
     "https://fundzama.netlify.app/images/logo2.png",
     "https://fundzama.netlify.app/images/tanks7.jpg"
   ],
-  "telephone": "+27-XX-XXX-XXXX",
-  "email": "info@fundzama.co.za",
+  "telephone": "+27-11-028-3877",
+  "email": "admin@fundzamafabrication.co.za",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Your Street Address",
-    "addressLocality": "Your City",
-    "addressRegion": "Your Province",
-    "postalCode": "XXXX",
+    "streetAddress": "13 Lovato Road, Spartan Ext 3",
+    "addressLocality": "Kempton Park",
+    "addressRegion": "Gauteng",
+    "postalCode": "1619",
     "addressCountry": "ZA"
   },
   "geo": {
@@ -160,7 +160,7 @@ export const createOrganisationSchema = () => ({
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+27-XX-XXX-XXXX",
+    "telephone": "+27-11-028-3877",
     "contactType": "customer service",
     "areaServed": "ZA",
     "availableLanguage": ["English", "Afrikaans"]
