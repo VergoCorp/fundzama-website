@@ -392,7 +392,7 @@ const Contact = () => {
                     <MapPin className="h-6 w-6 text-blue-500 mr-3 mt-1" />
                     <div>
                       <p className="font-semibold text-slate-900">Address</p>
-                      <p className="text-slate-600">13 Lovato Road, Spartan Ext 3<br />Kempton Park, Gauteng, 1619</p>
+                      <p className="text-slate-600">178 Barbara Road, Elandsfontein<br />Germiston, 1401</p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -419,7 +419,7 @@ const Contact = () => {
               <div className="bg-white rounded-2xl shadow-lg overflow-hidden h-[450px] relative border border-slate-100">
                 <iframe
                   title="Fundzama Fabrication Location"
-                  src="https://maps.google.com/maps?q=13%20Lovato%20Road,%20Spartan%20Ext%203,%20Kempton%20Park,%201619&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.6738910041695!2d28.216666699999998!3d-26.1421443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e951433f7d1f56f%3A0x7d6c66d8f8d5f6e8!2s178%20Barbara%20Rd%2C%20Elandsfontein%2C%20Germiston%2C%201401%2C%20South%20Africa!5e0!3m2!1sen!2sus!4v1706457600000!5m2!1sen!2sus"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
