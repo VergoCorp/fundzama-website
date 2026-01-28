@@ -5,79 +5,77 @@
                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <!-- Homepage -->
   <url>
-    <loc>https://fundzama.netlify.app/</loc>
-    <lastmod>2025-01-08</lastmod>
+    <loc>https://fundzamafabrication.com/</loc>
+    <lastmod>2026-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
-  <!-- About Page -->
+  <!-- Main Pages -->
   <url>
-    <loc>https://fundzama.netlify.app/about</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://fundzamafabrication.com/about</loc>
+    <lastmod>2026-01-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
-  <!-- Services Page -->
   <url>
-    <loc>https://fundzama.netlify.app/services</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://fundzamafabrication.com/services</loc>
+    <lastmod>2026-01-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
-  <!-- Products Page -->
   <url>
-    <loc>https://fundzama.netlify.app/products</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://fundzamafabrication.com/products</loc>
+    <lastmod>2026-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
-  <!-- Projects Page -->
   <url>
-    <loc>https://fundzama.netlify.app/projects</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- Team Page -->
-  <url>
-    <loc>https://fundzama.netlify.app/team</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <!-- Contact Page -->
-  <url>
-    <loc>https://fundzama.netlify.app/contact</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://fundzamafabrication.com/projects</loc>
+    <lastmod>2026-01-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
-  <!-- Product Detail Pages (examples - update with actual product IDs) -->
   <url>
-    <loc>https://fundzama.netlify.app/products/battery-tanks</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://fundzamafabrication.com/team</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundzamafabrication.com/contact</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://fundzamafabrication.com/gallery</loc>
+    <lastmod>2026-01-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
-  <url>
-    <loc>https://fundzama.netlify.app/products/industrial-equipment</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundzama.netlify.app/products/pallet-jacks</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <!-- Product Detail Pages -->
+  <url><loc>https://fundzamafabrication.com/products/battery-tanks</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fundzamafabrication.com/products/industrial-stairs</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fundzamafabrication.com/products/washbays</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fundzamafabrication.com/products/outdoor-furniture</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fundzamafabrication.com/products/custom-fabrication</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fundzamafabrication.com/products/workshop-equipment</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fundzamafabrication.com/products/pallet-jacks</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fundzamafabrication.com/products/industrial-equipment</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Project Detail Pages -->
+  <url><loc>https://fundzamafabrication.com/projects/mining-complex</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fundzamafabrication.com/projects/warehouse-automation</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fundzamafabrication.com/projects/manufacturing-upgrade</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fundzamafabrication.com/projects/retail-furniture</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fundzamafabrication.com/projects/power-station</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fundzamafabrication.com/projects/automotive-assembly</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

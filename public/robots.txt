@@ -19,7 +19,7 @@ Allow: /images/
 Allow: /public/
 
 # Sitemap location
-Sitemap: https://fundzama.netlify.app/sitemap.xml
+Sitemap: https://fundzamafabrication.com/sitemap.xml
 
 # Crawl delay (optional - be respectful to search engines)
 Crawl-delay: 1

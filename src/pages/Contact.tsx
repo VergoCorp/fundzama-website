@@ -22,7 +22,7 @@ const Contact = () => {
   const webPageSchema = createWebPageSchema(
     "Contact Fundzama Fabrication - Get Your Custom Metal Fabrication Quote",
     "Contact South Africa's premier metal fabrication company. Get quotes for custom metalwork, industrial equipment, and fabrication services. Expert consultation available.",
-    "https://fundzama.co.za/contact"
+    "https://fundzamafabrication.com/contact"
   );
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -85,8 +85,8 @@ const Contact = () => {
         title="Contact Fundzama Fabrication - Get Your Custom Metal Fabrication Quote"
         description="Contact South Africa's premier metal fabrication company. Get quotes for custom metalwork, industrial equipment, and fabrication services. Expert consultation available."
         keywords="contact Fundzama, metal fabrication quote, South Africa fabrication, custom metalwork quote, industrial equipment inquiry"
-        image="https://fundzama.co.za/images/logo2.png"
-        url="https://fundzama.co.za/contact"
+        image="https://fundzamafabrication.com/images/logo2.png"
+        url="https://fundzamafabrication.com/contact"
         type="website"
         structuredData={webPageSchema}
       />
@@ -147,8 +147,8 @@ const Contact = () => {
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Email Us</h3>
                 <p className="text-slate-600 mb-2">24/7 Support</p>
-                <a href="mailto:admin@fundzamafabrication.co.za" className="text-orange-600 hover:text-orange-700 font-semibold text-sm">
-                  admin@fundzamafabrication.co.za
+                <a href="mailto:admin@fundzamafabrication.com" className="text-orange-600 hover:text-orange-700 font-semibold text-sm">
+                  admin@fundzamafabrication.com
                 </a>
               </div>
             </div>

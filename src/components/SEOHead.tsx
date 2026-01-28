@@ -23,7 +23,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({
   description = "Professional custom metal fabrication services in South Africa. Specializing in industrial equipment, forklift battery tanks, pallet jacks, and custom metalwork.",
   keywords = "metal fabrication, custom metalwork, industrial equipment, forklift battery tanks, pallet jacks, South Africa, welding, steel fabrication, manufacturing",
   image = "/images/logo2.png",
-  url = "https://fundzama.netlify.app",
+  url = "https://fundzamafabrication.com",
   type = "website",
   structuredData,
   noindex = false,

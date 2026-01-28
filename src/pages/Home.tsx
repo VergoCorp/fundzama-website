@@ -25,7 +25,7 @@ const Home = () => {
         title="Fundzama Fabrication - Custom Metal Fabrication Solutions | South Africa"
         description="South Africa's premier metal fabrication company. Custom metalwork, industrial equipment, forklift battery tanks, and precision engineering solutions."
         keywords="metal fabrication South Africa, custom metalwork, industrial equipment, forklift battery tanks, pallet jacks, welding services, steel fabrication, manufacturing"
-        image="https://fundzama.co.za/images/tanks7.jpg"
+        image="https://fundzamafabrication.com/images/tanks7.jpg"
         url="https://fundzama.co.za"
         type="website"
         structuredData={combinedSchema}

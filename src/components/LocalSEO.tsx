@@ -14,7 +14,7 @@ const LocalSEO: React.FC<LocalSEOProps> = ({
   businessName = "Fundzama Fabrication",
   address = "Your Business Address, City, Province, South Africa",
   phone = "+27-XX-XXX-XXXX",
-  email = "admin@fundzamafabrication.co.za",
+  email = "admin@fundzamafabrication.com",
   hours = [
     "Monday - Friday: 7:00 AM - 5:00 PM",
     "Saturday: 8:00 AM - 1:00 PM",
@@ -111,7 +111,7 @@ const LocalSEO: React.FC<LocalSEOProps> = ({
               "latitude": -26.2041,
               "longitude": 28.0473
             },
-            "url": "https://fundzama.netlify.app",
+            "url": "https://fundzamafabrication.com",
             "priceRange": "$$",
             "serviceArea": {
               "@type": "Country",

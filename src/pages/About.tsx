@@ -11,7 +11,7 @@ const About = () => {
   const webPageSchema = createWebPageSchema(
     "About Fundzama Fabrication - South Africa's Metal Fabrication Experts",
     "Learn about Fundzama Fabrication's 10+ years of excellence in custom metal fabrication, industrial equipment manufacturing, and precision engineering in South Africa.",
-    "https://fundzama.co.za/about"
+    "https://fundzamafabrication.com/about"
   );
 
   const combinedSchema = {
@@ -25,8 +25,8 @@ const About = () => {
         title="About Fundzama Fabrication - South Africa's Metal Fabrication Experts"
         description="Learn about Fundzama Fabrication's 10+ years of excellence in custom metal fabrication, industrial equipment manufacturing, and precision engineering in South Africa."
         keywords="about Fundzama, metal fabrication company, South Africa manufacturing, industrial equipment, company history, fabrication expertise"
-        image="https://fundzama.co.za/images/logo2.png"
-        url="https://fundzama.co.za/about"
+        image="https://fundzamafabrication.com/images/logo2.png"
+        url="https://fundzamafabrication.com/about"
         type="website"
         structuredData={combinedSchema}
       />

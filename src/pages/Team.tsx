@@ -112,11 +112,11 @@ const Team = () => {
               in metal fabrication and engineering.
             </p>
             <a
-              href="mailto:careers@fundzamafabrication.co.za"
+              href="mailto:careers@fundzamafabrication.com"
               className="inline-flex items-center bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
             >
               <Mail className="mr-2 h-5 w-5" />
-              careers@fundzamafabrication.co.za
+              careers@fundzamafabrication.com
             </a>
           </ScrollAnimation>
         </div>

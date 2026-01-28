@@ -5,7 +5,7 @@ export interface SitemapUrl {
   priority: number;
 }
 
-export const generateSitemap = (baseUrl: string = 'https://fundzama.co.za'): string => {
+export const generateSitemap = (baseUrl: string = 'https://fundzamafabrication.com'): string => {
   const urls: SitemapUrl[] = [
     {
       loc: `${baseUrl}/`,

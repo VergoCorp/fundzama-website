@@ -7,10 +7,10 @@ export const createBusinessSchema = () => ({
   "alternateName": "Fundzama",
   "description": "Professional custom metal fabrication services in South Africa. Specializing in industrial equipment, forklift battery tanks, pallet jacks, and custom metalwork.",
   "url": "https://fundzama.netlify.app",
-  "logo": "https://fundzama.netlify.app/images/logo2.png",
+  "logo": "https://fundzamafabrication.com/images/logo2.png",
   "image": [
-    "https://fundzama.netlify.app/images/logo2.png",
-    "https://fundzama.netlify.app/images/tanks7.jpg"
+    "https://fundzamafabrication.com/images/logo2.png",
+    "https://fundzamafabrication.com/images/tanks7.jpg"
   ],
   "telephone": "+27-11-028-3877",
   "email": "admin@fundzamafabrication.co.za",

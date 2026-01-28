@@ -16,7 +16,7 @@ const Services = () => {
   const webPageSchema = createWebPageSchema(
     "Custom Steel Fabrication Services - We Make Anything Steel | Fundzama",
     "Expert custom steel fabrication services. From overhead jacks to fireplaces, industrial equipment to decorative pieces - if it's steel, we fabricate it to perfection.",
-    "https://fundzama.co.za/services"
+    "https://fundzamafabrication.com/services"
   );
 
   const combinedSchema = {
@@ -30,8 +30,8 @@ const Services = () => {
         title="Custom Steel Fabrication Services - We Make Anything Steel | Fundzama"
         description="Expert custom steel fabrication services. From overhead jacks to fireplaces, industrial equipment to decorative pieces - if it's steel, we fabricate it to perfection."
         keywords="custom steel fabrication, overhead jacks, fireplaces, industrial equipment, metal fabrication services, bespoke steel work, South Africa"
-        image="https://fundzama.co.za/images/headjack.jpg"
-        url="https://fundzama.co.za/services"
+        image="https://fundzamafabrication.com/images/headjack.jpg"
+        url="https://fundzamafabrication.com/services"
         type="website"
         structuredData={combinedSchema}
       />
