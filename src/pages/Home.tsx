@@ -95,7 +95,7 @@ const Home = () => {
               <h2 className="text-4xl font-bold text-slate-900 mb-4">Custom Metal Fabrication Products & Services</h2>
               <p className="text-lg text-slate-600 max-w-3xl mx-auto mb-6">
                 Discover our comprehensive range of custom metal fabrication solutions, from industrial equipment 
-                to specialisedbattery tank systems. Each product is engineered to meet the highest South African 
+                to specialised battery tank systems. Each product is engineered to meet the highest South African 
                 manufacturing standards.
               </p>
               <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
