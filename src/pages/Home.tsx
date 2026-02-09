@@ -9,9 +9,9 @@ import '../styles/home.css';
 const Home = () => {
   const businessSchema = createBusinessSchema();
   const webPageSchema = createWebPageSchema(
-    "Fundzama Fabrication - Custom Metal Fabrication Solutions | South Africa",
-    "South Africa's premier metal fabrication company. Custom metalwork, industrial equipment, forklift battery tanks, and precision engineering solutions.",
-    "https://fundzama.co.za"
+    "Steel Fabrication & Custom Metalwork Solutions | Fundzama Fabrication",
+    "South Africa's premier steel fabrication company. Custom metalwork, industrial equipment, forklift battery tanks, and precision engineering solutions.",
+    "https://fundzamafabrication.com"
   );
 
   const combinedSchema = {
@@ -22,11 +22,11 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       <SEOHead
-        title="Fundzama Fabrication - Custom Metal Fabrication Solutions | South Africa"
-        description="South Africa's premier metal fabrication company. Custom metalwork, industrial equipment, forklift battery tanks, and precision engineering solutions."
-        keywords="metal fabrication South Africa, custom metalwork, industrial equipment, forklift battery tanks, pallet jacks, welding services, steel fabrication, manufacturing"
+        title="Steel Fabrication & Custom Metalwork Solutions | Fundzama Fabrication"
+        description="South Africa's premier steel fabrication company. Custom metalwork, industrial equipment, forklift battery tanks, and precision engineering solutions."
+        keywords="steel fabrication, metal fabrication South Africa, custom metalwork, industrial equipment, forklift battery tanks, pallet jacks, welding services, manufacturing"
         image="https://fundzamafabrication.com/images/tanks7.jpg"
-        url="https://fundzama.co.za"
+        url="https://fundzamafabrication.com"
         type="website"
         structuredData={combinedSchema}
       />
@@ -57,9 +57,9 @@ const Home = () => {
             </ScrollAnimation>
             <ScrollAnimation delay={200}>
               <p className="text-2xl lg:text-3xl text-slate-200 mb-12 max-w-4xl mx-auto font-light leading-relaxed">
-                <span className="text-orange-400 font-semibold">South Africa's Premier Metal Fabrication Company</span> - Custom Metalwork Specialists
+                <span className="text-orange-400 font-semibold">South Africa’s Premier Steel Fabrication Company</span> - Custom Metalwork Specialists
                 <br />
-                <span className="text-yellow-300">Engineering Excellence</span> in Industrial Equipment, Battery Tanks & Steel Fabrication
+                <span className="text-yellow-300">Engineering Excellence</span> in Industrial Equipment, Battery Tanks & Precision Steel Fabrication
               </p>
             </ScrollAnimation>
             <ScrollAnimation delay={400}>
@@ -92,7 +92,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollAnimation>
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold text-slate-900 mb-4">Custom Metal Fabrication Products & Services</h2>
+              <h2 className="text-4xl font-bold text-slate-900 mb-4">Custom Steel Fabrication Products & Services</h2>
               <p className="text-lg text-slate-600 max-w-3xl mx-auto mb-6">
                 Discover our comprehensive range of custom metal fabrication solutions, from industrial equipment 
                 to specialised battery tank systems. Each product is engineered to meet the highest South African 
@@ -242,7 +242,7 @@ const Home = () => {
             <ScrollAnimation>
               <div>
                 <h2 className="text-4xl font-bold text-slate-900 mb-6">
-                  Leading <span className="text-orange-500">Metal Fabrication Company</span> in South Africa
+                  Leading <span className="text-orange-500">Steel Fabrication Company</span> in South Africa
                 </h2>
                 <p className="text-xl text-slate-600 mb-6 leading-relaxed">
                   Founded in 2016, Fundzama Fabrication has established itself as a premier custom metal fabrication 

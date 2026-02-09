@@ -14,8 +14,8 @@ const Services = () => {
   );
   
   const webPageSchema = createWebPageSchema(
-    "Custom Steel Fabrication Services - We Make Anything Steel | Fundzama",
-    "Expert custom steel fabrication services. From overhead jacks to fireplaces, industrial equipment to decorative pieces - if it's steel, we fabricate it to perfection.",
+    "Custom Steel Fabrication Services South Africa | Fundzama Fabrication",
+    "Expert steel fabrication services including industrial equipment, custom metalwork, and precision engineering. If it's steel, we fabricate it to perfection.",
     "https://fundzamafabrication.com/services"
   );
 
@@ -27,9 +27,9 @@ const Services = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
       <SEOHead
-        title="Custom Steel Fabrication Services - We Make Anything Steel | Fundzama"
-        description="Expert custom steel fabrication services. From overhead jacks to fireplaces, industrial equipment to decorative pieces - if it's steel, we fabricate it to perfection."
-        keywords="custom steel fabrication, overhead jacks, fireplaces, industrial equipment, metal fabrication services, bespoke steel work, South Africa"
+        title="Custom Steel Fabrication Services South Africa | Fundzama Fabrication"
+        description="Expert steel fabrication services including industrial equipment, custom metalwork, and precision engineering. If it's steel, we fabricate it to perfection."
+        keywords="steel fabrication services, custom steel fabrication, industrial equipment, metal fabrication South Africa, bespoke steel work, precision engineering"
         image="https://fundzamafabrication.com/images/headjack.jpg"
         url="https://fundzamafabrication.com/services"
         type="website"
@@ -67,9 +67,9 @@ const Services = () => {
           {/* Core Capabilities Overview */}
           <ScrollAnimation delay={200}>
             <div className="mb-20">
-              <h2 className="text-4xl font-bold text-slate-900 mb-6 text-center">What We Fabricate</h2>
+              <h2 className="text-4xl font-bold text-slate-900 mb-6 text-center">Steel Fabrication Expertise</h2>
               <p className="text-lg text-slate-600 mb-12 text-center max-w-3xl mx-auto">
-                Our expertise spans every corner of steel fabrication. Here's just a glimpse of what we create:
+                Our expertise spans every corner of professional steel fabrication. Here's just a glimpse of what we create:
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">

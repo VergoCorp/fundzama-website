@@ -5,8 +5,8 @@ export const createBusinessSchema = () => ({
   "@type": "LocalBusiness",
   "name": "Fundzama Fabrication",
   "alternateName": "Fundzama",
-  "description": "Professional custom metal fabrication services in South Africa. Specializing in industrial equipment, forklift battery tanks, pallet jacks, and custom metalwork.",
-  "url": "https://fundzama.netlify.app",
+  "description": "South Africa's premier metal fabrication company specializing in custom metalwork, industrial equipment, and precision engineering solutions.",
+  "url": "https://fundzamafabrication.com",
   "logo": "https://fundzamafabrication.com/images/logo2.png",
   "image": [
     "https://fundzamafabrication.com/images/logo2.png",
@@ -87,7 +87,7 @@ export const createServiceSchema = (serviceName: string, description: string) =>
   "provider": {
     "@type": "LocalBusiness",
     "name": "Fundzama Fabrication",
-    "url": "https://fundzama.netlify.app"
+    "url": "https://fundzamafabrication.com"
   },
   "areaServed": {
     "@type": "Country",
@@ -122,7 +122,7 @@ export const createWebPageSchema = (title: string, description: string, url: str
   "isPartOf": {
     "@type": "WebSite",
     "name": "Fundzama Fabrication",
-    "url": "https://fundzama.netlify.app"
+    "url": "https://fundzamafabrication.com"
   },
   "inLanguage": "en-ZA",
   "about": {
@@ -147,8 +147,8 @@ export const createOrganisationSchema = () => ({
   "@type": "Organisation",
   "name": "Fundzama Fabrication",
   "alternateName": "Fundzama",
-  "url": "https://fundzama.netlify.app",
-  "logo": "https://fundzama.netlify.app/images/logo2.png",
+  "url": "https://fundzamafabrication.com",
+  "logo": "https://fundzamafabrication.com/images/logo2.png",
   "description": "South Africa's premier metal fabrication company specializing in custom metalwork, industrial equipment, and precision engineering solutions.",
   "foundingDate": "2010",
   "industry": "Metal Fabrication",
